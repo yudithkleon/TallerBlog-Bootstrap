@@ -6,96 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/quienesSmos.css">
     <link rel="stylesheet" href="./css/style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Quines Somos</title>
 </head>
 
 <body>
     <header>
-        <h1>VIVE MEJOR</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="quienessomos.html">Quiénes somos</a>
-                </li>
-                <li>
-                    <a href="contactenos.html">Contáctenos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">VIVE MEJOR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienessomos.html">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactenos.html">Contáctenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <header class="banner">
-            <div class="overlay">
-                <h1>Quienes Somos</h1>
-            </div>
-        </header>
+        <div class="overlay">
+            <h1>Quienes Somos</h1>
+        </div>
+    </header>
     <main>
-        
-        <section class="equipo">
+
+        <section class="equipo d-flex flex-column text-center gap-3">
             <h2 class="titulo">Nuestro equipo de Trabajo</h2>
             <p>Somos un equipo de desarrolladores que busca implementar sitios web que ayuden a los usuarios</p>
         </section>
-        <section class="cards">
-            <article class="claro">
-                <img src="./images/woman.jpg" alt="">
-                <div>
-                    <h3>Angie Alarcon</h3>
-                    <p>Desarrollador</p>
+        <section class="cards m-4 d-flex flex-wrap justify-content-center gap-3">
+            <div class="card claro">
+                <img src="./images/woman.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Angie Alarcon</h5>
+                    <p class="card-text">Desarrollador</p>
                 </div>
+            </div>
             </article>
-            <article class="oscuro">
-                <img src="./images/girl.jpg" alt="">
-                <div>
-                    <h3>Victoria Patarroyo</h3>
-                    <p>Desarrollador</p>
+            <div class="card oscuro">
+                <img src="./images/girl.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Victoria Patarroyo</h5>
+                    <p class="card-text">Desarrollador</p>
                 </div>
-            </article>
-            <article class="claro">
-                <img src="./images/man.jpg" alt="">
-                <div>
-                    <h3>Alvaro Hernandez</h3>
-                    <p>Desarrollador</p>
+            </div>
+            <div class="card claro">
+                <img src="./images/man.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Alvaro Hernandez</h5>
+                    <p class="card-text">Desarrollador</p>
                 </div>
-            </article>
-            <article class="oscuro">
-                <img src="./images/woman-24.jpg" alt="">
-                <div>
-                    <h3>Yudith León</h3>
-                    <p>Desarrollador</p>
+            </div>
+            <div class="card oscuro">
+                <img src="./images/woman-24.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Yudith León</h5>
+                    <p class="card-text">Desarrollador</p>
                 </div>
-            </article>
+            </div>
         </section>
         <section class="web">
             <h2 class="titulo">¿Porque el sitio web?</h2>
             <img src="./images/descarga (48).jpg" alt="">
-            <p>En un mundo que avanza tan rápido, muchas veces olvidamos lo esencial: cuidar de nosotros mismos. Vive Mejor nace con la intención de crear un espacio donde puedas pausar, respirar y reconectarte contigo mismo.Este sitio busca inspirarte a vivir de manera más consciente, a descubrir que el bienestar no está en grandes cambios, sino en los pequeños hábitos diarios que transforman tu cuerpo, tu mente y tu energía.</p>
+            <p>En un mundo que avanza tan rápido, muchas veces olvidamos lo esencial: cuidar de nosotros mismos. Vive
+                Mejor nace con la intención de crear un espacio donde puedas pausar, respirar y reconectarte contigo
+                mismo.Este sitio busca inspirarte a vivir de manera más consciente, a descubrir que el bienestar no está
+                en grandes cambios, sino en los pequeños hábitos diarios que transforman tu cuerpo, tu mente y tu
+                energía.</p>
             <h3>Aquí encontrarás:</h3>
-            <ul>
-                <li>Consejos prácticos sobre salud, nutrición y bienestar emocional.</li>
-                <li>Artículos que te invitan a reflexionar y a mejorar cada día.</li>
-                <li>Videos y recursos que te motivarán a construir una vida más plena y equilibrada.</li>
+            <ul class="list-group">
+                <li class="list-group-item">Consejos prácticos sobre salud, nutrición y bienestar emocional.</li>
+                <li class="list-group-item">Artículos que te invitan a reflexionar y a mejorar cada día.</li>
+                <li class="list-group-item">Videos y recursos que te motivarán a construir una vida más plena y
+                    equilibrada.</li>
             </ul>
-            <p>Creemos que todos merecemos vivir mejor, con propósito, calma y alegría. Este sitio es un recordatorio de que el bienestar está al alcance de todos, empezando hoy, con un solo paso.</p>
+            <p>Creemos que todos merecemos vivir mejor, con propósito, calma y alegría. Este sitio es un recordatorio de
+                que el bienestar está al alcance de todos, empezando hoy, con un solo paso.</p>
         </section>
     </main>
      <footer>
-        <div>
-            <p><b>Autores</b></p>
-            <p>Alvaro Hernández</p>
-            <p>Angie Alarcón</p>
-            <p>Victoria Patarroyo</p>
-            <p>Yudith León</p>
-        </div>
-        <div>
-            <p><b>Contacto</b></p>
-            <p>logo23@gmail.com</p>
-            <p>logo24@gmail.com</p>
-            <p>logo25@gmail.com</p>
-            <p>logo26@gmail.com</p>
-        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">VIVE MEJOR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">Álvaro Daniel Hernández</li>
+                        <li class="nav-item">Angie Liceth Alarcón</li>
+                        <li class="nav-item">Victoria Eugeia Patarroyo</li>
+                        <li class="nav-item">Yudith Karina León</li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">alvaro@vivemejor.com</li>
+                        <li class="nav-item">angie@viviemejor.com</li>
+                        <li class="nav-item">victoria@vivemejor.com</li>
+                        <li class="nav-item">yudith@vivemejor.com</li>
+                    </ul>
+                </div>                
+            </div>
+            <div>
+                2025 - Todos los derechos reservados
+            </div>
+        </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

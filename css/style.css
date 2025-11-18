@@ -1,17 +1,11 @@
-header {
-    background-color:  #C9F17E;
+.navbar {
+    background-color:  #C9F17E !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
-header nav {
-    text-align: right;
-    display: block;    
-    width: 60%;
-}
-
-header ul {
+.navbar ul {
     display: inline-block;
     list-style-type: none;
     margin: 0.5em auto;
@@ -19,12 +13,12 @@ header ul {
     text-align: center;
 }
 
-header ul li { 
+.navbar ul li { 
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header ul li a {
+.navbar ul li a {
     text-decoration: none;    
     color: black;
     padding: 0.3em;
@@ -38,14 +32,33 @@ footer {
     align-items: center;
 }
 
-footer div {
+footer .navbar {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 300px;
     margin-left: 200px;
 }
 
-footer div p {
+.navbar div {
     text-align: center;
+}
+
+nav .nav-link {
+    color: black !important;
+    transition: all 0.3s ease;
+}
+        
+/* Hover para nav-link */
+nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transform: translateY(-2px);
+    padding: 8px 15px;
+}
+        
+/* Hover para navbar-brand */
+nav .navbar-brand:hover {
+    transform: scale(1.05);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
