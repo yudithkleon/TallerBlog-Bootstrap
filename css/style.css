@@ -1,0 +1,51 @@
+header {
+    background-color:  #C9F17E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    text-align: right;
+    display: block;    
+    width: 60%;
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5em auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header ul li { 
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header ul li a {
+    text-decoration: none;    
+    color: black;
+    padding: 0.3em;
+}
+
+footer {
+    background-color:  #C9F17E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+footer div p {
+    text-align: center;
+}

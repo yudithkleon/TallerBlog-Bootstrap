@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 70px;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url("../images/kendini\ bul\,\ anda\ kal.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .overlay {
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+.banner h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.titulo {
+    font-size: 32px;
+    color: #214E34;
+    text-align: center;
+}
+
+.equipo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.equipo h2 {
+    margin-top: 40px;
+}
+
+.equipo p {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px;
+}
+
+.claro {
+    background-color: #C9F17E;
+}
+
+.oscuro {
+    background-color:#214E34;
+    color: white;
+}
+
+article {
+    width: 274px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+article div {
+    padding: 10px;
+    text-align: center;
+}
+
+article p {
+    font-size: 25px;
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.web h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.web p {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.web h3 {
+    margin-left: 80px;
+}
+
+.web ul {
+    margin-left: 80px;
+}
+

@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Fondo general */
+body {
+    background-color: #ffffff;
+    color: #214E34;
+}
+
+main{
+    margin:  50px;
+}
+main h1 {
+    text-align: center;
+
+}
+
+
+
+
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+label {
+    align-self: flex-start;
+    color: #1d3a1a;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #1d3a1a;
+    border-radius: 10px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2d5f2a;
+}
+
+/* Botón */
+button {
+    background-color: #1d3a1a;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2d5f2a;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: url("../images/kendini\ bul\,\ anda\ kal.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .overlay {
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+.banner h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.banner h1 span {
+  color: #C9F17E;
+}
+.banner p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+
+/*Header y footer*/
+header {
+    background-color:  #C9F17E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    text-align: right;
+    display: block;    
+    width: 60%;
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5em auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header ul li { 
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header ul li a {
+    text-decoration: none;    
+    color: black;
+    padding: 0.3em;
+}
+
+footer {
+    background-color:  #C9F17E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+footer div p {
+    text-align: center;
+} 
