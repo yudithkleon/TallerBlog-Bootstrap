@@ -1,17 +1,11 @@
-header {
-    background-color:  #C9F17E;
+.navbar {
+    background-color:  #C9F17E !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
-header nav {
-    text-align: right;
-    display: block;    
-    width: 60%;
-}
-
-header ul {
+.navbar ul {
     display: inline-block;
     list-style-type: none;
     margin: 0.5em auto;
@@ -19,12 +13,12 @@ header ul {
     text-align: center;
 }
 
-header ul li { 
+.navbar ul li { 
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header ul li a {
+.navbar ul li a {
     text-decoration: none;    
     color: black;
     padding: 0.3em;
