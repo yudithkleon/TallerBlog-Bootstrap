@@ -4,28 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/main.css">
-            <link rel="stylesheet" href="./css/style.css">
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
         <title>Vive Mejor</title>
     </head>
     <body>
         <!-- el Navbar -->
-         <header>
-        <h1>VIVE MEJOR</h1>
-        <nav>  
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="quienessomos.html">Quiénes somos</a>
-                </li>
-                <li>
-                    <a href="contactenos.html">Contáctenos</a>
-                </li>
-            </ul>
-        </nav>
-    </header>     
+        <header>
+            <h1>VIVE MEJOR</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="quienessomos.html">Quiénes somos</a>
+                    </li>
+                    <li>
+                        <a href="contactenos.html">Contáctenos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <!-- El baner -->
         <header class="banner">
             <div class="overlay">
@@ -36,21 +40,61 @@
         </header>
 
         <!-- sesion  -->
-        <section class="bienestar">
+        <div class="container text-center">
             <h2>Hablemos sobre bienestar</h2>
-            <div class="bienestar-contenido">
-                <img src="./images/Gentle.jpg" class="img-tips">
-                <div class="tips">
-                    <ul>
-                        <li>Toma agua al despertar.</li>
-                        <li>Haz una pausa para respirar profundo</li>
-                        <li>Sal a caminar al menos 10 minutos.</li>
-                        <li>Agradece tres cosas antes de dormir.</li>
-                        <li>Sonríe más, incluso sin motivo.</li>
+            <div class="row ">
+                <div class="col">
+                    <img src="./images/Gentle.jpg" class="rounded float-end"
+                        alt="Imagen para la card" width="30%">
+                    <!-- <img src="./images/Gentle.jpg" class="img-tips"> -->
+                </div>
+                <div class="col tips">
+                    <ul class="list-group m-3">
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox"
+                                value id="firstCheckboxStretched">
+
+                            <label class="form-check-label"
+                                for="firstRadio">Toma agua al despertar.</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox"
+                                value id="firstCheckboxStretched">
+
+                            <label class="form-check-label"
+                                for="secondRadio">Haz una pausa para respirar
+                                profundo</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox"
+                                value id="firstCheckboxStretched">
+
+                            <label class="form-check-label"
+                                for="firstRadio">Sonríe más, incluso sin
+                                motivo.</label>
+                        </li>
+
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox"
+                                value id="firstCheckboxStretched">
+
+                            <label class="form-check-label" for="firstRadio">Sal
+                                a caminar al menos 10 minutos.</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox"
+                                value id="firstCheckboxStretched">
+
+                            <label class="form-check-label"
+                                for="secondRadio">Agradece tres cosas antes de
+                                dormir.</label>
+                        </li>
+
                     </ul>
                 </div>
+
             </div>
-        </section>
+        </div>
 
         <!--Más textico -->
         <section class="secciones">
@@ -101,9 +145,9 @@
 
             </div>
         </section>
-   
+
         <section class="articulos">
-           
+
             <h1>Descubre contenido práctico y real para mejorar tu bienestar día
                 a día.</h1>
 
@@ -119,18 +163,27 @@
             </ul>
 
             <div class="imagenes-articulos">
-                <img src="./images/Gentle.jpg" alt="ejercitarse">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Gentle.jpg" class="card-img-top"
+                        alt="ejercicio">
 
-                <img
-                    src="./images/Mantra as Medicine_ A Yogic Approach to Psychological Resilience.jpg"
-                    alt="mantras">
-                <img
-                    src="./images/Nutrición consciente_ el primer paso hacia una vida equilibrada 🌿🥗.jpg"
-                    alt="alimentación">
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img
+                        src="./images/Mantra as Medicine_ A Yogic Approach to Psychological Resilience.jpg"
+                        class="card-img-top" alt="meditación">
+
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img
+                        src="./images/Nutrición consciente_ el primer paso hacia una vida equilibrada 🌿🥗.jpg"
+                        class="card-img-top" alt="Alimentación">
+
+                </div>
+
             </div>
         </section>
 
-       
         <section class="frase">
             <h2>
                 “Cada día es una nueva oportunidad para vivir mejor. Empieza
@@ -146,7 +199,8 @@
                 la meditación. Dedicar aunque sea unos pocos minutos a la
                 meditación puede ayudarte a recuperar la calma y paz interior.
             </p>
-            <img src="./images/Meditaciones Matinales Para Activar Y Limpiar Tus Chakras.jpg"
+            <img
+                src="./images/Meditaciones Matinales Para Activar Y Limpiar Tus Chakras.jpg"
                 alt="Meditación y bienestar">
             <p>
                 La meditación puede darte una sensación de calma, paz y
@@ -179,54 +233,116 @@
             </p>
 
             <h3>Tipos de meditación</h3>
-            <div class="tipos">
-                <div>
-                    <h4>Meditación guiada</h4>
-                    <p>Utiliza imágenes mentales o visualizaciones para
-                        relajarte. Un guía o maestro puede ayudarte en este
-                        proceso.</p>
-                </div>
-                <div>
-                    <h4>Meditación con mantra</h4>
-                    <p>Repite una palabra o frase calmante para enfocar tu mente
-                        y evitar pensamientos no deseados.</p>
-                </div>
-                <div>
-                    <h4>Meditación con atención plena</h4>
-                    <p>Aprende a observar tus pensamientos sin juzgarlos,
-                        conectándote con el presente.</p>
-                </div>
-                <div>
-                    <h4>Qi Gong y Taichí</h4>
-                    <p>Combinan movimiento suave, respiración y equilibrio
-                        mental. Son parte de la medicina tradicional china.</p>
-                </div>
-                <div>
-                    <h4>Yoga</h4>
-                    <p>Integra cuerpo y mente mediante posturas, respiración y
-                        concentración. Mejora la flexibilidad y reduce el
-                        estrés.</p>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="card tipos" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Meditación guiada</h5>
+
+                                <p class="card-text">
+                                    Utiliza imágenes mentales o visualizaciones
+                                    para
+                                    relajarte. Un guía o maestro puede ayudarte
+                                    en este
+                                    proceso.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card tipos" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Meditación con
+                                    mantra</h5>
+
+                                <p class="card-text">
+                                    Utiliza imágenes mentales o visualizaciones
+                                    para
+                                    relajarte. Un guía o maestro puede ayudarte
+                                    en este
+                                    proceso.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card tipos" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Meditación con atención
+                                    plena</h5>
+
+                                <p class="card-text">
+                                    Aprende a observar tus pensamientos sin
+                                    juzgarlos,
+                                    conectándote con el presente.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card tipos" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Qi Gong y Taichí</h5>
+
+                                <p class="card-text">
+                                    Combinan movimiento suave, respiración y
+                                    equilibrio
+                                    mental. Son parte de la medicina tradicional
+                                    china.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="card tipos" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Yoga</h5>
+
+                                <p class="card-text">
+                                    Integra cuerpo y mente mediante posturas,
+                                    respiración y
+                                    concentración. Mejora la flexibilidad y
+                                    reduce el
+                                    estrés.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
         </section>
 
         <!-- Footer -->
-          <footer>
-        <div>
-            <p><b>Autores</b></p>
-            <p>Alvaro Hernández</p>
-            <p>Angie Alarcón</p>
-            <p>Victoria Patarroyo</p>
-            <p>Yudith León</p>
-        </div>
-        <div>
-            <p><b>Contacto</b></p>
-            <p>logo23@gmail.com</p>
-            <p>logo24@gmail.com</p>
-            <p>logo25@gmail.com</p>
-            <p>logo26@gmail.com</p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <footer>
+            <div>
+                <p><b>Autores</b></p>
+                <p>Alvaro Hernández</p>
+                <p>Angie Alarcón</p>
+                <p>Victoria Patarroyo</p>
+                <p>Yudith León</p>
+            </div>
+            <div>
+                <p><b>Contacto</b></p>
+                <p>logo23@gmail.com</p>
+                <p>logo24@gmail.com</p>
+                <p>logo25@gmail.com</p>
+                <p>logo26@gmail.com</p>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
     </body>
 </html>
