@@ -1,84 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contáctenos</title>
-        <link rel="stylesheet" href="css/contactenos.css">
-        <link rel="stylesheet" href="./css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    </head>
-    <body>
 
-        <header>
-            <h1>VIVE MEJOR</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="quienessomos.html">Quiénes somos</a>
-                    </li>
-                    <li>
-                        <a href="contactenos.html">Contáctenos</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="css/contactenos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-        <!-- El baner -->
-        <header class="banner">
-            <div class="overlay">
-                <h1>Bienvenido a <span>Vive Mejor</span></h1>
-                <p>Tu espacio para cuidar tu cuerpo, tu mente y tu
-                    bienestar.</p>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">VIVE MEJOR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienessomos.html">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactenos.html">Contáctenos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </header>
-        <main>
+        </nav>
+    </header>
 
-            <h1>Contáctenenos</h1>
+    <!-- El baner -->
+    <header class="banner">
+        <div class="overlay">
+            <h1>Bienvenido a <span>Vive Mejor</span></h1>
+            <p>Tu espacio para cuidar tu cuerpo, tu mente y tu
+                bienestar.</p>
+        </div>
+    </header>
 
-            <form>
-                <label for="nombre">Nombre Completo</label>
-                <input type="text" id="nombre"
-                    placeholder="Escribe tu nombre completo">
+    <main class="container py-5">
 
-                <label for="correo">Correo</label>
-                <input type="email" id="correo"
-                    placeholder="Escribe tu correo electrónico">
+        <h1 class="mb-4 text-center">Contáctenos</h1>
 
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono"
-                    placeholder="Escribe tu número de teléfono">
+        <form class="mx-auto" style="max-width: 600px;">
 
-                <label for="mensaje">¿Qué deseas de nosotros?</label>
-                <input type="text" id="mensaje"
-                    placeholder="Cuéntanos tu solicitud">
-
-                <button type="submit">Enviar</button>
-            </form>
-        </main>
-        <footer>
-            <div class="div-izquierdo">
-                <ul>
-                    <li><b>Autores</b></li>
-                    <li>Alvaro Hernández</li>
-                    <li>Angie Alarcón</li>
-                    <li>Victoria Patarroyo</li>
-                    <li>Yudith León</li>
-                </ul>
+            <!-- Nombre -->
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre Completo</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                    <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre completo">
+                </div>
             </div>
-            <div class="div-derecho">
-                <ul>
-                    <li><b>Contacto</b></li>
-                    <li>logo23@gmail.com</li>
-                    <li>logo24@gmail.com</li>
-                    <li>logo25@gmail.com</li>
-                    <li>logo26@gmail.com</li>
-                </ul>
+
+            <!-- Correo -->
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                    <input type="email" class="form-control" id="correo" placeholder="Escribe tu correo electrónico">
+                </div>
             </div>
-        </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    </body>
+
+            <!-- Teléfono -->
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-telephone"></i></span>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Escribe tu número de teléfono">
+                </div>
+            </div>
+
+            <!-- Mensaje -->
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">¿Qué deseas de nosotros?</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-chat-dots"></i></span>
+                    <textarea class="form-control" id="mensaje" rows="2"
+                        placeholder="Cuéntanos tu solicitud"></textarea>
+                </div>
+            </div>
+
+            <!-- Botón -->
+            <button type="submit" class="btn btn-primary btn-mi-verde">
+                <i class="bi bi-send"></i> Enviar
+            </button>
+
+        </form>
+    </main>
+
+
+    <footer>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">VIVE MEJOR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">Álvaro Daniel Hernández</li>
+                        <li class="nav-item">Angie Liceth Alarcón</li>
+                        <li class="nav-item">Victoria Eugeia Patarroyo</li>
+                        <li class="nav-item">Yudith Karina León</li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">alvaro@vivemejor.com</li>
+                        <li class="nav-item">angie@viviemejor.com</li>
+                        <li class="nav-item">victoria@vivemejor.com</li>
+                        <li class="nav-item">yudith@vivemejor.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                2025 - Todos los derechos reservados
+            </div>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
